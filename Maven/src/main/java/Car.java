@@ -19,7 +19,7 @@ public class Car {
 
     public Car(double speed,double dist,double aPos, double aNeg)
     {
-        if(speed<= initialSpeedMax && speed>=initialSpeedMin)
+        if(speed<= initialSpeedMax2 && speed>=initialSpeedMin)
             this.initialSpeed = speed;
         else {
             System.out.println("Please input correct value");
